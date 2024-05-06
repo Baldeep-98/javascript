@@ -2,52 +2,51 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Calculator </title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>Book Store</title>
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="calculator">
-            <form>
-                <div class="result">
-                    <input type="text" name="show">
-                </div>
-                <div>
-                    <input type="button" value="Ac" onclick="show.value=''">
-                    <input type="button" value="DEL" onclick="show.value=show.value.toString().slice(0,-1)">
-                    <input type="button" value="." onclick="show.value+='.'">
-                    <input type="button" value="/" onclick="show.value+='/'">
-                </div>
-                <div>
-                    <input type="button" value="7" onclick="show.value+='7'">
-                    <input type="button" value="8" onclick="show.value+='8'">
-                    <input type="button" value="9" onclick="show.value+='9'">
-                    <input type="button" value="*" onclick="show.value+='*'">
-                </div>
-                <div>
-                    <input type="button" value="4" onclick="show.value+='4'">
-                    <input type="button" value="5" onclick="show.value+='5'">
-                    <input type="button" value="6" onclick="show.value+='6'">
-                    <input type="button" value="-" onclick="show.value+='-'">
-                </div>
-                <div>
-                    <input type="button" value="1" onclick="show.value+='1'">
-                    <input type="button" value="2" onclick="show.value+='2'">
-                    <input type="button" value="3" onclick="show.value+='3'">
-                    <input type="button" value="+" onclick="show.value+='+'">
-                </div>
-                <div>
-                    <input type="button" value="0" onclick="show.value+='0'">
-                    <input type="button" value="%" onclick="show.value='%'">
-                    <input type="button" value="=" onclick="show.value=eval(show.value)" class="equal">
-                </div>
-            </form>
+    <header class="head">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="quote">
+                <p>A room without books is like a body without a soul</p>
+            </div>
         </div>
 
-    </div>
+        <div class="card">
+            <img src="images/image1.jpg" alt="Image 1">
+        </div>
+        <div class="card">
+            <img src="images/image2.jpg" alt="Image 2">
+        </div>
+        <div class="card">
+            <img src="images/image3.jpg" alt="Image 3">
+        </div>
+    </header>
 
+    <div class="footer">
+        <footer>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>
